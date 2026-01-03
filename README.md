@@ -34,4 +34,7 @@ Edit the following values to customize the headers and where they are written:
 ## Notes
 
 **Important takeaway:**  
-Using `.getActiveSheet()` does not reliably return the newly added sheet. In many cases, it points to the first sheet instead. So I used allSheetNames[allSheetNames.length - 1]
+Using `.getActiveSheet()` does not reliably return the newly added sheet. In many cases, it points to the first sheet instead. So I used `allSheetNames[allSheetNames.length - 1]`
+![autoheader](https://github.com/user-attachments/assets/d9e1018b-5bbf-410a-b5e2-d0f565aec5b9)
+
+
